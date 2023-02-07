@@ -32,6 +32,7 @@ class BlogPage(Page):
         FieldPanel('date'),
         FieldPanel('intro'),
         FieldPanel('body'),
+        InlinePanel('gallery_images', label="Gallery images")
     ]
 
 
