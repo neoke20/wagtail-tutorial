@@ -71,7 +71,7 @@ class BlogPageGalleryImage(Orderable):
     ]
 
 
-class BlogTagPageIndex(Page):
+class BlogTagIndexPage(Page):
 
     def get_context(self, request):
         tag = request.GET.get('tag')
